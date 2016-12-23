@@ -4,13 +4,15 @@ Questions?
 Spencer N. Axani 
 saxani@mit.edu
 
-Requirements: Sketch->Include->Manage Libraries:
+Requirements:
   1. Adafruit GFX Library -- by Adafruit Version 1.0.2
   2. Adafruit SSD1306     -- by Adafruit Version 1.0.0
   3. Wire                 -- by Arduino Version 1.0.0
   4. OzOLED               -- Version unknown, can be found on github. Or in the supplementary material.
   5. SPI                  -- by Arduino Version 1.0.0 
   6. TimerOne             -- by Jesse Tane et al. Version 1.1.0
+
+ Simply un-zip the libraries.zip file and place the files into the Arduino/libraries folder on your machin
 */
 
 #include <Adafruit_GFX.h>
