@@ -67,7 +67,7 @@ float signal_voltage   = 0;                  // This is the measured signal ampl
 const String current_count_str  = "Total Count:";
 const String runtime_str        = "Run Time:   ";
 const String rate_str           = "Rate: ";
-const String pm                 = "+/-";
+const String pm                 = " +/- ";
 
 long int time           = 0.;
 int      seconds        = 0.;
@@ -222,7 +222,7 @@ void getTime(){
     dtostrf(stdev, 1, 3, tmp2);
   }
   
-  rate = rate_str + tmp + " " + pm + " " + tmp2;
+  rate = rate_str + tmp + pm + tmp2;
   display.println(current_count);
   display.println(runtime);
   display.println(hist);
